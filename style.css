@@ -29,7 +29,7 @@ main {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  max-width: 500px;
+  max-width: 450px;
   min-height: 100vh;
   padding: clamp(35px, 8%, 70px);
 }
@@ -50,8 +50,8 @@ main {
 .login__title {
   color: var(--deep-grey);
   font-size: 1.4em;
-
   margin-bottom: 30px;
+  font-weight: bold;
 }
 
 .login__label {
@@ -68,7 +68,7 @@ main {
   border: 2px solid rgba(0, 0, 0, 0);
   border-radius: 5px;
   outline: none;
-  font-size: 0.9em;
+  font-size: 0.7em;
   padding: 25px 10px 10px;
   font-weight: 600;
   color: var(--deep-grey);
@@ -98,12 +98,12 @@ main {
 .login__icons {
   display: flex;
   gap: 10px;
-  width: 100%;
-  margin-top: 20px;
+  width: 75%;
+  margin-top: 10px;
 }
 
 .login__icons img {
-  width: 20px;
+  width: 15px;
 }
 
 .icons__button {
@@ -111,7 +111,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 35px;
+  height: 32px;
   border-radius: 5px;
   cursor: pointer;
   border: none;
