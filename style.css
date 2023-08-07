@@ -43,20 +43,22 @@ main {
 }
 
 .login__logo {
-  width: 130px;
-  margin-bottom: 80px;
+  width: 120px;
+  margin-bottom: 75px;
 }
 
 .login__title {
   color: var(--deep-grey);
-  font-size: 1.5em;
+  font-size: 1.4em;
+
   margin-bottom: 30px;
 }
 
 .login__label {
   display: block;
   margin-bottom: 20px;
-  width: 100%;
+  width: 95%;
+
 }
 
 .input {
@@ -198,7 +200,7 @@ main {
 
 .wallpaper {
   width: 100%;
-  background-image: url('./images/wallpaper.jpg');
+  background-image: url('./images/kayn wallpaper.jpg');
   background-size: cover;
   background-position: center;
   flex: 1;
